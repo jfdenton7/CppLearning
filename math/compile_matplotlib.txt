@@ -1,0 +1,3 @@
+g++ matplot.cpp $(pkg-config --cflags --libs python2) 
+-std=c++11 -I ~/.local/lib/python2.7/site-packages/numpy/core/include 
+-lpython2.7 -o matplot
